@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E976F923AC438E37DE49685 /* Pods_Fbdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70936E47FBF606FEA5DBFAA /* Pods_Fbdemo.framework */; };
+		E320D16F23839DCD00A6991B /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E320D16E23839DCD00A6991B /* SwiftPackageProductDependency */; };
 		E3AEF3E423837B2600DD0950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF3E323837B2600DD0950 /* AppDelegate.swift */; };
 		E3AEF3E623837B2600DD0950 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF3E523837B2600DD0950 /* SceneDelegate.swift */; };
 		E3AEF3E823837B2600DD0950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF3E723837B2600DD0950 /* ViewController.swift */; };
 		E3AEF3EB23837B2700DD0950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AEF3E923837B2700DD0950 /* Main.storyboard */; };
 		E3AEF3ED23837B2B00DD0950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AEF3EC23837B2B00DD0950 /* Assets.xcassets */; };
 		E3AEF3F023837B2B00DD0950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3AEF3EE23837B2B00DD0950 /* LaunchScreen.storyboard */; };
+		E3AEF3F923837F2000DD0950 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E3AEF3F823837F2000DD0950 /* SwiftPackageProductDependency */; };
+		E3AEF3FC23837FC800DD0950 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3AEF3FB23837FC800DD0950 /* Accelerate.framework */; };
+		E3AEF3FE238387F400DD0950 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF3FD238387F400DD0950 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C7E74B831B095D389C6F2EC /* Pods-Fbdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fbdemo.debug.xcconfig"; path = "Target Support Files/Pods-Fbdemo/Pods-Fbdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		703E62F27C54AAB2174BDF1F /* Pods-Fbdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fbdemo.release.xcconfig"; path = "Target Support Files/Pods-Fbdemo/Pods-Fbdemo.release.xcconfig"; sourceTree = "<group>"; };
+		B70936E47FBF606FEA5DBFAA /* Pods_Fbdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fbdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AEF3E023837B2600DD0950 /* Fbdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fbdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3AEF3E323837B2600DD0950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3AEF3E523837B2600DD0950 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		E3AEF3EC23837B2B00DD0950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AEF3EF23837B2B00DD0950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3AEF3F123837B2B00DD0950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AEF3FB23837FC800DD0950 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E3AEF3FD238387F400DD0950 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E320D16F23839DCD00A6991B /* BuildFile in Frameworks */,
+				E3AEF3F923837F2000DD0950 /* BuildFile in Frameworks */,
+				E3AEF3FC23837FC800DD0950 /* Accelerate.framework in Frameworks */,
+				2E976F923AC438E37DE49685 /* Pods_Fbdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82238D52837AFDD3AFB556B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7E74B831B095D389C6F2EC /* Pods-Fbdemo.debug.xcconfig */,
+				703E62F27C54AAB2174BDF1F /* Pods-Fbdemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3AEF3D723837B2600DD0950 = {
 			isa = PBXGroup;
 			children = (
 				E3AEF3E223837B2600DD0950 /* Fbdemo */,
 				E3AEF3E123837B2600DD0950 /* Products */,
+				E3AEF3FA23837FC700DD0950 /* Frameworks */,
+				82238D52837AFDD3AFB556B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +86,21 @@
 				E3AEF3E523837B2600DD0950 /* SceneDelegate.swift */,
 				E3AEF3E723837B2600DD0950 /* ViewController.swift */,
 				E3AEF3E923837B2700DD0950 /* Main.storyboard */,
+				E3AEF3FD238387F400DD0950 /* LoginViewController.swift */,
 				E3AEF3EC23837B2B00DD0950 /* Assets.xcassets */,
 				E3AEF3EE23837B2B00DD0950 /* LaunchScreen.storyboard */,
 				E3AEF3F123837B2B00DD0950 /* Info.plist */,
 			);
 			path = Fbdemo;
+			sourceTree = "<group>";
+		};
+		E3AEF3FA23837FC700DD0950 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3AEF3FB23837FC800DD0950 /* Accelerate.framework */,
+				B70936E47FBF606FEA5DBFAA /* Pods_Fbdemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +110,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3AEF3F423837B2B00DD0950 /* Build configuration list for PBXNativeTarget "Fbdemo" */;
 			buildPhases = (
+				326915DD1E97411A6BBC1B43 /* [CP] Check Pods Manifest.lock */,
 				E3AEF3DC23837B2600DD0950 /* Sources */,
 				E3AEF3DD23837B2600DD0950 /* Frameworks */,
 				E3AEF3DE23837B2600DD0950 /* Resources */,
+				A66856A01B6313C6AACD045D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Fbdemo;
+			packageProductDependencies = (
+				E3AEF3F823837F2000DD0950 /* SwiftPackageProductDependency */,
+				E320D16E23839DCD00A6991B /* SwiftPackageProductDependency */,
+			);
 			productName = Fbdemo;
 			productReference = E3AEF3E023837B2600DD0950 /* Fbdemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,10 @@
 				Base,
 			);
 			mainGroup = E3AEF3D723837B2600DD0950;
+			packageReferences = (
+				E3AEF3F723837F2000DD0950 /* RemoteSwiftPackageReference */,
+				E320D16D23839DCD00A6991B /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = E3AEF3E123837B2600DD0950 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,11 +179,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		326915DD1E97411A6BBC1B43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fbdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66856A01B6313C6AACD045D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fbdemo/Pods-Fbdemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fbdemo/Pods-Fbdemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fbdemo/Pods-Fbdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3AEF3DC23837B2600DD0950 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AEF3FE238387F400DD0950 /* LoginViewController.swift in Sources */,
 				E3AEF3E823837B2600DD0950 /* ViewController.swift in Sources */,
 				E3AEF3E423837B2600DD0950 /* AppDelegate.swift in Sources */,
 				E3AEF3E623837B2600DD0950 /* SceneDelegate.swift in Sources */,
@@ -199,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -259,6 +349,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -282,10 +373,12 @@
 		};
 		E3AEF3F523837B2B00DD0950 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7E74B831B095D389C6F2EC /* Pods-Fbdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Fbdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +392,12 @@
 		};
 		E3AEF3F623837B2B00DD0950 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703E62F27C54AAB2174BDF1F /* Pods-Fbdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Fbdemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +431,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E320D16D23839DCD00A6991B /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+		E3AEF3F723837F2000DD0950 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E320D16E23839DCD00A6991B /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E320D16D23839DCD00A6991B /* RemoteSwiftPackageReference */;
+			productName = Kingfisher;
+		};
+		E3AEF3F823837F2000DD0950 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3AEF3F723837F2000DD0950 /* RemoteSwiftPackageReference */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E3AEF3D823837B2600DD0950 /* Project object */;
 }
